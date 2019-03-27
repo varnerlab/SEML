@@ -196,7 +196,7 @@ using Pkg
   ```
   - `cd` to `outpath2` folder
   - run `julia Simulation.jl`
-  (Note that while running the kinetic model, some figure(s) will be generated and pause the program, close the unwanted figure windows to get the final color figures as Fig. 7.)
+  (Note that while running the kinetic model, some figure(s) will be generated and pause the program, close the unwanted figure windows to get the final color figures as Fig. 5.)
 
 
 
