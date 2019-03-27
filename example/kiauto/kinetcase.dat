@@ -1,0 +1,15 @@
+# kinetic model 
+the cell uptakes m_A_e via p_TA_c
+the cell secretes m_B_c via p_TB_c
+the cell secretes m_C_c via p_TC_c
+p_E1_c catalyzes the conversion of m_A_c into m_B_c
+p_E4_c catalyzes the conversion of m_B_c into m_A_c
+p_E2_c catalyzes the conversion of m_A_c into m_C_c
+p_E3_c catalyzes the conversion of m_C_c into m_B_c
+m_A_e activates p_TA_c
+m_A_c induces g_E1_c and g_E2_c
+m_B_c induces g_TB_c and g_E4_c
+m_C_c induces g_E3_c and g_TC_c
+
+m_, p_, mRNA_, g_ are METABOLITE, PROTEIN, MRNA, GENE
+_e, _c are _exc, _c
