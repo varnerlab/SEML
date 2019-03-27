@@ -35,7 +35,7 @@ To use SEML in your project simply issue the command:
 
 ```
 using SEML
-make_model(arg1[, OutPath=arg2, Host=arg3, Model=arg4, Lang=arg5])
+make_model(in_path[, out_path=arg2, host=arg3, model=arg4, lang=arg5])
 ```
 
 The ``make_model()`` command takes five arguments:
@@ -142,19 +142,19 @@ using Pkg
 ### reproduce directly
 1. Download the `example` folder
 2. Open a terminal window, `cd` to the `example` folder
-3. To run the FBA model (Fig. 5(b)):
+3. To run the FBA model (Fig. 2):
   - `cd` to `fauto` folder
   - run `julia Solve.jl`
-3. To run the kinetic model (Fig. 7):
+3. To run the kinetic model (Fig. 5):
   - `cd` to `kiauto` folder
   - run `julia Simulation.jl`
-  (Note that while running the kinetic model, some figure(s) will be generated and pause the program, close the unwanted figure windows to get the final color figures as Fig. 7.)
+  (Note that while running the kinetic model, some figure(s) will be generated and pause the program, close the unwanted figure windows to get the final color figures as Fig. 5.)
 
 ### reproduce from scratch
 1. Download the `example/testcase` folder to get two models in SEML
 2. Open a terminal window, go into `julia` and run `using SEML`
-3. To build the FBA model (Fig. 5(b)):
-  - run `make_model("PathTo/fbacase.txt", Model="FBA", OutPath="outpath1")`
+3. To build the FBA model (Fig. 2):
+  - run `make_model("PathTo/fbacase.txt", model="FBA", out_path="outpath1")`
   - change the following parameters to corresponding values in the generated `DataDictionary.jl`
   ```
   default_bounds_array = [
@@ -175,7 +175,7 @@ using Pkg
   - `cd` to `outpath1` folder
   - run `julia Solve.jl`
 
-4. To build the kinetic model (Fig. 7):
+4. To build the kinetic model (Fig. 4 and 5):
   - run `make_model("PathTo/kinetcase.dat", out_path="outpath2")`
   - change the following parameters to corresponding values in the generated `DataDictionary.jl`
   ```
