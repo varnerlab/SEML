@@ -3,7 +3,7 @@ SEML: A Simplified English Modeling Language for Constructing Biological Models 
 
 ## Introduction to SEML
 SEML compiler is a code generator that transforms simplified English description of biological network into modeling written in a runnable programming language, such as the [Julia](http://julialang.org), [Python](https://www.python.org) and [Matlab](https://www.mathworks.com/products/matlab.html).
-See our [Github page](https://zzp12.github.io/SEML.jl/)
+See our [Github page](https://github.com/varnerlab/SEML.git)
 
 
 
@@ -18,7 +18,7 @@ Within [Julia](http://http://julialang.org), use the `add` command of the packag
 ```
 using Pkg
 ]
-(v1.1) pkg> add https://github.com/ZZP12/SEML.jl.git
+(v1.1) pkg> add https://github.com/varnerlab/SEML.git
 ```
 
 To delete the SEML package use the command:
