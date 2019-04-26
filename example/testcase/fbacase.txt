@@ -1,0 +1,11 @@
+# FBA/FVA model
+the cell uptakes m_A_e
+[] catalyzes the reversible conversion of m_A_c into m_B_c
+[] catalyzes the conversion of m_A_c into m_C_c
+[] catalyzes the conversion of m_C_c into m_B_c
+[] catalyzes the conversion of m_C_c into m_B_c
+the cell secretes m_B_c
+the cell secretes m_C_c
+
+m_, p_, mRNA_, g_ are METABOLITE, PROTEIN, MRNA, GENE
+_e, _c are _exc, _c
