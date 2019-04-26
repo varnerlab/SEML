@@ -137,7 +137,7 @@ maximizeProductDictionary.m | modify the objective coefficient array.
 Solve.m | interface to run the simulation
 stoichiometry.dat  | Stoichiometric matrix of the model
 
-FBA/FVA model files:
+rFBA model files:
 
 File | Description
 :--- | :---
