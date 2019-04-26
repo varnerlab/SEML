@@ -101,6 +101,18 @@ InputFile | SEML description of the model
 Solve.py | interface to run the simulation
 stoichiometry.dat  | Stoichiometric matrix of the model
 
+rFBA model files:
+
+File | Description
+:--- | :---
+DataDictionary.py | contains all data of the model, including flux bounds, species concentration bounds, and objective coefficients, etc.
+FluxDriver.py  |  interface with scipy.optimize.linprog to run FBA
+FVA.py  |  implementation of fastFVA from [gudmundsson2010computationally](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-489)
+InputFile | SEML description of the model
+Solve.py | interface to run the simulation
+rRules.py | encode regulatory rules 
+stoichiometry.dat  | Stoichiometric matrix of the model
+
 Kinetic model files:
 
 File | Description
@@ -122,6 +134,19 @@ FluxDriver.m  |  interface with GLPK solver to run FBA
 FVA.m  |  implementation of fastFVA from [gudmundsson2010computationally](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-489)
 InputFile | SEML description of the model
 maximizeProductDictionary.m | modify the objective coefficient array.
+Solve.m | interface to run the simulation
+stoichiometry.dat  | Stoichiometric matrix of the model
+
+FBA/FVA model files:
+
+File | Description
+:--- | :---
+DataDictionary.m | contains all data of the model, including flux bounds, species concentration bounds, and objective coefficients, etc.
+FluxDriver.m  |  interface with GLPK solver to run FBA
+FVA.m  |  implementation of fastFVA from [gudmundsson2010computationally](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-489)
+InputFile | SEML description of the model
+maximizeProductDictionary.m | modify the objective coefficient array.
+rRules.m | encode regulatory rules 
 Solve.m | interface to run the simulation
 stoichiometry.dat  | Stoichiometric matrix of the model
 
