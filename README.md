@@ -15,7 +15,7 @@ In order to use SEML, the user needs to [install Julia](https://julialang.org/do
 ## Installation
 Within [Julia](http://http://julialang.org), use the `add` command of the package manager to download and install the SEML repository:
 
-```
+```julia
 using Pkg
 ]
 (v1.1) pkg> add https://github.com/varnerlab/SEML.git
@@ -23,7 +23,7 @@ using Pkg
 
 To delete the SEML package use the command:
 
-```
+```julia
 ]
 (v1.1) pkg> rm SEML
 ```
@@ -33,7 +33,7 @@ To delete the SEML package use the command:
 ## Usage
 To use SEML in your project simply issue the command:
 
-```
+```julia 
 using SEML
 make_model(in_path[, out_path=arg2, host=arg3, model=arg4, lang=arg5])
 ```
@@ -171,7 +171,7 @@ The following Julia packages are required to run the demontration examples in Ju
 
 They can be installed by running in Julia:
 
-```
+```julia
 using Pkg
 ]
 (v1.1) pkg> add GLPK ODE PyPlot
@@ -193,7 +193,7 @@ using Pkg
 3. To build the FBA model (Fig. 2):
   - run `make_model("PathTo/fbacase.txt", model="FBA", out_path="outpath1")`
   - change the following parameters to corresponding values in the generated `DataDictionary.jl`
-  ```
+  ```julia
   default_bounds_array = [
 	...
 	0 1.0; # 2 1.0*m_A_c<catalyze:>1.0*m_B_c
@@ -201,7 +201,7 @@ using Pkg
 	0 2.0; # 4 1.0*m_A_c<catalyze:>1.0*m_C_c
         ...
   ]
-  ...
+  ...julia
   species_bounds_array = [
 	-10.0 10.0; # 1 m_A_e
 	-10.0 10.0; # 2 m_B_e
@@ -215,7 +215,7 @@ using Pkg
 4. To build the kinetic model (Fig. 4 and 5):
   - run `make_model("PathTo/kinetcase.dat", out_path="outpath2")`
   - change the following parameters to corresponding values in the generated `DataDictionary.jl`
-  ```
+  ```julia
   kcat_signaling = ones(7)  # kcat[#reaction]: reaction name
   kcat_signaling[1] = 1.1e-3  # kcat: 1.0*m_A_e<uptake:1.0*p_TA_c>1.0*m_A_c
   kcat_signaling[2] = 8e-4  # kcat: 1.0*m_B_c<secrete:1.0*p_TB_c>1.0*m_B_e
