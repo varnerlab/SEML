@@ -8,6 +8,7 @@ include("JuliaStrategy.jl")
 include("Python2Strategy.jl")
 include("Python3Strategy.jl")
 include("MATLABStrategy.jl")
+include("SBMLgen.jl")
 include("make_model.jl")
 
 # Export the interface function -
