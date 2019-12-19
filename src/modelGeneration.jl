@@ -222,5 +222,5 @@ function build_stoichiometric_matrix_buffer(all_reaction_list::Array, rnx_specie
     stoichiometric_buffer = chop(stoichiometric_buffer)
     stoichiometric_buffer *= "\n"
   end
-  return stoichiometric_buffer
+  return stoichiometric_buffer, stoichiometric_matrix
 end
