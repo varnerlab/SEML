@@ -13,21 +13,28 @@ In order to use SEML, the user needs to [install Julia](https://julialang.org/do
 
 
 ## Installation
-Within [Julia](http://http://julialang.org), use the `add` command of the package manager to download and install the SEML repository:
-
+**Installation**.
+Within Julia, press `]` to enter `pkg>` mode.
+To install SEML.jl, issue
 ```julia
-using Pkg
-]
-(v1.1) pkg> add https://github.com/varnerlab/SEML.git
+add https://github.com/varnerlab/SEML.git
+```
+To use SEML in your project simply issue the command:
+```julia
+using SEML
 ```
 
-To delete the SEML package use the command:
-
+**Test**.
+To test SEML installation, use the following command in `pkg>` mode:
 ```julia
-]
-(v1.1) pkg> rm SEML
+test SEML
 ```
 
+**Uninstallation**.
+To delete SEML package use the following command in `pkg>` mode:
+```julia
+rm SEML
+```
 
 
 ## Usage
