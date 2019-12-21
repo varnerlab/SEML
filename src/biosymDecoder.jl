@@ -421,7 +421,7 @@ function BioSym2GeneralBioSym(token::AbstractString, convDict::Dict, err::Array)
       push!(err, "error while parsing coefficient for \'$token\'")
     else  # maybe 1) correct 2) default 3) error
       if length(tokenPiece1) == 2
-        if isnull(tryparse(Float64, tokenPiece1[1]))  # parse() failed
+        if isnothing(tryparse(Float64, tokenPiece1[1]))  # parse() failed
           println("error while parsing coefficient for \'$token\'")
           push!(err, "error while parsing coefficient for \'$token\'")
         else  # got name and coefficient
