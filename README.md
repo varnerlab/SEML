@@ -253,5 +253,4 @@ using Pkg
 
 
 ## Support or Contact
-
-Having trouble at installation or function? Feel free to contact the [authors](https://github.com/varnerlab) or [authors](https://www.cheme.cornell.edu/faculty-directory/jeffrey-d-varner).
+Having trouble at installation or function? Feel free to contact [VarnerLab](https://github.com/varnerlab) or [authors](https://www.cheme.cornell.edu/faculty-directory/jeffrey-d-varner).
