@@ -13,7 +13,7 @@ See our [Github page](https://github.com/varnerlab/SEML.git)
 
 
 ## Installation
-**Requirement**
+**Requirement**.
 In order to use SEML, the user needs to [install Julia](https://julialang.org/downloads/platform.html) first. 
 
 **Installation**.
