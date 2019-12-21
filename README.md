@@ -1,24 +1,21 @@
 # SEML documentation 
 SEML: a Simplified English Modeling Language for Constructing Biological Models in Julia
-- [Statement of need](https://github.com/varnerlab/GapFindFill.jl/blob/master/README.md#statement-of-need)
-- [Installation instruction](https://github.com/varnerlab/GapFindFill.jl/blob/master/README.md#installation-instruction)
-- [Example](https://github.com/varnerlab/GapFindFill.jl/blob/master/README.md#example)
-- [API documentation](https://github.com/varnerlab/GapFindFill.jl/blob/master/README.md#api-documentation)
-- [Reference](https://github.com/varnerlab/GapFindFill.jl/blob/master/README.md#reference)
-- [Support or Contact](https://github.com/varnerlab/GapFindFill.jl/blob/master/README.md#support-or-contact)
+- [Introduction](https://github.com/varnerlab/SEML/blob/master/README.md#introduction)
+- [Installation](https://github.com/varnerlab/SEML/blob/master/README.md#installation)
+- [API Documentation](https://github.com/varnerlab/SEML/blob/master/README.md#api-documentation)
+- [Output Files](https://github.com/varnerlab/SEML/blob/master/README.md#output-files)
+- [Reproduce Examples](https://github.com/varnerlab/SEML/blob/master/README.md#reproduce-examples)
+- [Support or Contact](https://github.com/varnerlab/SEML/blob/master/README.md#support-or-contact)
 
-## Introduction to SEML
+## Introduction
 SEML compiler is a code generator that transforms simplified English description of biological network into modeling written in a runnable programming language, such as the [Julia](http://julialang.org), [Python](https://www.python.org) and [Matlab](https://www.mathworks.com/products/matlab.html).
 See our [Github page](https://github.com/varnerlab/SEML.git)
 
 
-
-## Requirement
-In order to use SEML, the user needs to [install Julia](https://julialang.org/downloads/platform.html) first. This version is compatible with [Julia v1.1.0](https://julialang.org/downloads/index.html).
-
-
-
 ## Installation
+**Requirement**
+In order to use SEML, the user needs to [install Julia](https://julialang.org/downloads/platform.html) first. 
+
 **Installation**.
 Within Julia, press `]` to enter `pkg>` mode.
 To install SEML.jl, issue
@@ -43,7 +40,7 @@ rm SEML
 ```
 
 
-## Usage
+## API Documentation 
 To use SEML in your project simply issue the command:
 
 ```julia 
