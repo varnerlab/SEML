@@ -403,8 +403,13 @@ function checkBindType(senInfo::Tuple, u2sDict::Dict, err::Array)
       end
     else  # generate product
       product = createBindProductsList(senInfo[2][1])
-      returnArr = [(senInfo[1], [senInfo[2][1], product])]
-      return returnArr
+      if rever  # reversible reaction
+        returnArr = [(senInfo[1], [senInfo[2][1], product]), (senInfo[1], [product, senInfo[2][1]])]
+        return returnArr
+      else  # irreversible
+        returnArr = [(senInfo[1], [senInfo[2][1], product])]
+        return returnArr
+      end
     end
   else  # incorrect reactants
     println("**semantic error or incorrect symbol format found in $(senInfo[2][1])")
