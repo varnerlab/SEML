@@ -1,0 +1,18 @@
+# general test cases
+the cell uptakes m_A_e
+[] catalyzes the reversible conversion of m_A_c into m_B_c
+[] catalyzes the conversion of m_A_c into m_C_c
+the cell secretes m_B_c
+p_E1_c phosphorylates p_E2_c
+p_E3_c dephosphorylate p_E2_c-phosph
+p_E1_c phosphorylates p_E2_c at site xyz
+p_E4_c dephosphorylate p_E2_c-xyz at site xyz
+
+p_E4_c and p_E5_c binding
+p_E6_c and p_E7_c binding into p_Bind_c
+3*p_E4_c binds into p_E4Bind_c
+p_E4_c-p_E5_c unbind into p_E4_c and p_E5_c
+
+-phos is -pho
+m_, p_, mRNA_ are METABOLITE, PROTEIN, MRNA
+_e, _c are _exc, _c
