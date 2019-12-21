@@ -149,14 +149,14 @@ function checkPhosphorylateType(senInfo::Tuple, u2sDict::Dict, s2uDict::Dict, er
   if DS10SemanticChecking(senInfo[2][2], u2sDict, legalTypeSet2) # correct reactant
     if isassigned(senInfo[2], 3)  # have site
       if DS10SemanticChecking(senInfo[2][3], u2sDict, legalTypeSet3)  # correct SITE
-        product = createProductsList(senInfo[2][2], "-"*senInfo[2][3][1].oriBioName, err)
+        product = createProductsList(senInfo[2][2], "-"*senInfo[2][3][1].oriBioName)
       else  # incorrect site
         println("*semantic error or incorrect symbol format found in $(senInfo[2][3])")
         push!(err, "*semantic error or incorrect symbol format found in $(senInfo[2][3])")
         return []
       end
     else  # does not have site --> default product
-      product = createProductsList(senInfo[2][2], s2uDict["-pho"], err)
+      product = createProductsList(senInfo[2][2], s2uDict["-pho"])
     end
     if DS1SemanticChecking(senInfo[2][1], u2sDict, legalTypeSet1) # correct catalyst of DS1
       if rever  # reversible
