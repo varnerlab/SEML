@@ -4,7 +4,7 @@ the cell uptakes m_A_e
 [] catalyzes the conversion of m_A_c into m_C_c
 the cell secretes m_B_c
 p_E1_c phosphorylates p_E2_c
-p_E3_c dephosphorylate p_E2_c-phosph
+p_E3_c dephosphorylate p_E2_c-phos
 p_E1_c phosphorylates p_E2_c at site xyz
 p_E4_c dephosphorylate p_E2_c-xyz at site xyz
 
