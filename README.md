@@ -1,16 +1,16 @@
 # SEML documentation 
 SEML: a Simplified English Modeling Language for Constructing Biological Models in Julia
-- [Introduction](https://github.com/varnerlab/SEML/blob/master/README.md#introduction)
-- [Installation](https://github.com/varnerlab/SEML/blob/master/README.md#installation)
-- [API Documentation](https://github.com/varnerlab/SEML/blob/master/README.md#api-documentation)
-- [Output Files](https://github.com/varnerlab/SEML/blob/master/README.md#output-files)
-  - [in Julia](https://github.com/varnerlab/SEML/blob/master/README.md#in-julia)
-  - [in Python](https://github.com/varnerlab/SEML/blob/master/README.md#in-python)
-  - [in Matlab](https://github.com/varnerlab/SEML/blob/master/README.md#in-matlab)
-- [Reproduce Examples](https://github.com/varnerlab/SEML/blob/master/README.md#reproduce-examples)
-  - [reproduce directly](https://github.com/varnerlab/SEML/blob/master/README.md#reproduce-directly)
-  - [reproduce from scratch](https://github.com/varnerlab/SEML/blob/master/README.md#reproduce-from-scratch)
-- [Support or Contact](https://github.com/varnerlab/SEML/blob/master/README.md#support-or-contact)
+- [Introduction](https://github.com/varnerlab/SEML#introduction)
+- [Installation](https://github.com/varnerlab/SEML#installation)
+- [API Documentation](https://github.com/varnerlab/SEML#api-documentation)
+- [Output Files](https://github.com/varnerlab/SEML#output-files)
+  - [in Julia](https://github.com/varnerlab/SEML#in-julia)
+  - [in Python](https://github.com/varnerlab/SEML#in-python)
+  - [in Matlab](https://github.com/varnerlab/SEML#in-matlab)
+- [Reproduce Examples](https://github.com/varnerlab/SEML#reproduce-examples)
+  - [reproduce directly](https://github.com/varnerlab/SEML#reproduce-directly)
+  - [reproduce from scratch](https://github.com/varnerlab/SEML#reproduce-from-scratch)
+- [Support or Contact](https://github.com/varnerlab/SEML#support-or-contact)
 
 ## Introduction
 SEML compiler is a code generator that transforms simplified English description of biological network into modeling written in a runnable programming language, such as the [Julia](http://julialang.org), [Python](https://www.python.org) and [Matlab](https://www.mathworks.com/products/matlab.html).
