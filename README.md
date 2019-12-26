@@ -63,7 +63,13 @@ host | No	| host type  | bacterial \| mammalian | bacterial
 model | No | model type | FBA \| FVA \| Kinetics \| rFBA | Kinetics
 lang | No | programming language | julia \| python \| python2 \| python3 \| matlab | julia
 
-
+The default solvers in SEML generated codes: 
+Language | Constraint-based model | Kinetic model 
+:--- | :--- | :--- 
+Julia | ode23 in [ODE.jl](https://github.com/JuliaDiffEq/ODE.jl) | [GLPK.jl](https://github.com/JuliaOpt/GLPK.jl) 
+Python | scipy.integrate.odeint | scipy.optimize.linprog
+Matlab | builtin ode23 | GLPK     
+     
 
 ## Output Files
 ### in Julia
