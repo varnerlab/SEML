@@ -22,7 +22,7 @@ function SolveBalances(TStart, TStop, TStep, dataDictionary)
 		plt.plot(t, Y[:,i])
 		plt.title(all_species_reversed_dict[i])
 	end
-	plt.show()
+	# plt.show()
 
 	return (t, Y)
 end
