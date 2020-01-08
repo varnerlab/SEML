@@ -10,6 +10,7 @@ SEML: a Simplified English Modeling Language for Constructing Biological Models 
 - [Reproduce Examples](https://github.com/varnerlab/SEML#reproduce-examples)
   - [reproduce directly](https://github.com/varnerlab/SEML#reproduce-directly)
   - [reproduce from scratch](https://github.com/varnerlab/SEML#reproduce-from-scratch)
+- [Grammar](https://github.com/varnerlab/SEML/blob/master/Full_Grammer.pdf) 
 - [Support or Contact](https://github.com/varnerlab/SEML#support-or-contact)
 
 ## Introduction
